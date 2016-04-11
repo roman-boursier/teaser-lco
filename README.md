@@ -1,10 +1,12 @@
-"# teaser-lco" 
- - Un seul fichier css principal (styles > css > app.css), généré à partir de apps.css (styles > app.scss).
- - Seulement les partials bootstrap nécessaires sont importés via ce fichier app.scss
- - Toute sles personnalisations se font donc dans le dossier "styles/" : 
-   - variables pour surcharger les variables de bootstrap (couleur, fonts, ect.. )
-   _ base pour les styles plus spécifiques.
-   
+## Utilisation
+	Une seule feuille de style chargées > app.css
+	Css décomposés en deux dossiers, bootstrap-sass et styles, pour les surcharges.
+	Toutes les customisation se font donc dans ce dernier dossier (styles) :
+	- apps.scss se charge de l'import des partials nécessaires (bootstrap + surcharges)
+	- variables.scss sert à définir les variables principales (couleurs , typo etc ..)
+	- base.scss pour les styles plus "spécifiques"
+	
+	
    
   
 	
