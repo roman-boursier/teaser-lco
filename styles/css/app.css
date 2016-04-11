@@ -1577,7 +1577,7 @@ input[type="checkbox"]:focus {
 
 output {
   display: block;
-  padding-top: 11px;
+  padding-top: 7px;
   font-size: 16px;
   line-height: 1.42857;
   color: #555555; }
@@ -1585,8 +1585,8 @@ output {
 .form-control {
   display: block;
   width: 100%;
-  height: 45px;
-  padding: 10px 10px;
+  height: 34px;
+  padding: 6px 12px;
   font-size: 16px;
   line-height: 1.42857;
   color: #555555;
@@ -1600,10 +1600,10 @@ output {
   -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
   .form-control:focus {
-    border-color: #66afe9;
+    border-color: #cb6222;
     outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(203, 98, 34, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(203, 98, 34, 0.6); }
   .form-control::-moz-placeholder {
     color: #999;
     opacity: 1; }
@@ -1631,7 +1631,7 @@ input[type="search"] {
   input[type="time"].form-control,
   input[type="datetime-local"].form-control,
   input[type="month"].form-control {
-    line-height: 45px; }
+    line-height: 34px; }
   input[type="date"].input-sm, .input-group-sm > input[type="date"].form-control,
   .input-group-sm > input[type="date"].input-group-addon,
   .input-group-sm > .input-group-btn > input[type="date"].btn, .input-group-sm input[type="date"],
@@ -1669,7 +1669,7 @@ input[type="search"] {
   .input-group-lg > input[type="month"].input-group-addon,
   .input-group-lg > .input-group-btn > input[type="month"].btn, .input-group-lg
   input[type="month"] {
-    line-height: 49px; } }
+    line-height: 46px; } }
 .form-group {
   margin-bottom: 15px; }
 
@@ -1731,8 +1731,8 @@ input[type="checkbox"] {
   cursor: not-allowed; }
 
 .form-control-static {
-  padding-top: 11px;
-  padding-bottom: 11px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   margin-bottom: 0;
   min-height: 36px; }
   .form-control-static.input-lg, .input-group-lg > .form-control-static.form-control,
@@ -1789,7 +1789,7 @@ select[multiple].input-sm,
 .input-lg, .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .btn {
-  height: 49px;
+  height: 46px;
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.33333;
@@ -1798,8 +1798,8 @@ select[multiple].input-sm,
 select.input-lg, .input-group-lg > select.form-control,
 .input-group-lg > select.input-group-addon,
 .input-group-lg > .input-group-btn > select.btn {
-  height: 49px;
-  line-height: 49px; }
+  height: 46px;
+  line-height: 46px; }
 
 textarea.input-lg, .input-group-lg > textarea.form-control,
 .input-group-lg > textarea.input-group-addon,
@@ -1811,19 +1811,19 @@ select[multiple].input-lg,
   height: auto; }
 
 .form-group-lg .form-control {
-  height: 49px;
+  height: 46px;
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.33333;
   border-radius: 0; }
 .form-group-lg select.form-control {
-  height: 49px;
-  line-height: 49px; }
+  height: 46px;
+  line-height: 46px; }
 .form-group-lg textarea.form-control,
 .form-group-lg select[multiple].form-control {
   height: auto; }
 .form-group-lg .form-control-static {
-  height: 49px;
+  height: 46px;
   min-height: 38px;
   padding: 11px 16px;
   font-size: 18px;
@@ -1832,7 +1832,7 @@ select[multiple].input-lg,
 .has-feedback {
   position: relative; }
   .has-feedback .form-control {
-    padding-right: 56.25px; }
+    padding-right: 42.5px; }
 
 .form-control-feedback {
   position: absolute;
@@ -1840,9 +1840,9 @@ select[multiple].input-lg,
   right: 0;
   z-index: 2;
   display: block;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
   text-align: center;
   pointer-events: none; }
 
@@ -1851,9 +1851,9 @@ select[multiple].input-lg,
 .input-group-lg > .input-group-btn > .btn + .form-control-feedback,
 .input-group-lg + .form-control-feedback,
 .form-group-lg .form-control + .form-control-feedback {
-  width: 49px;
-  height: 49px;
-  line-height: 49px; }
+  width: 46px;
+  height: 46px;
+  line-height: 46px; }
 
 .input-sm + .form-control-feedback, .input-group-sm > .form-control + .form-control-feedback,
 .input-group-sm > .input-group-addon + .form-control-feedback,
@@ -1986,10 +1986,10 @@ select[multiple].input-lg,
 .form-horizontal .checkbox-inline {
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 11px; }
+  padding-top: 7px; }
 .form-horizontal .radio,
 .form-horizontal .checkbox {
-  min-height: 31px; }
+  min-height: 27px; }
 .form-horizontal .form-group {
   margin-left: -15px;
   margin-right: -15px; }
@@ -2002,7 +2002,7 @@ select[multiple].input-lg,
   .form-horizontal .control-label {
     text-align: right;
     margin-bottom: 0;
-    padding-top: 11px; } }
+    padding-top: 7px; } }
 .form-horizontal .has-feedback .form-control-feedback {
   right: 15px; }
 @media (min-width: 768px) {
@@ -2025,7 +2025,7 @@ select[multiple].input-lg,
   background-image: none;
   border: 1px solid transparent;
   white-space: nowrap;
-  padding: 10px 10px;
+  padding: 6px 12px;
   font-size: 16px;
   line-height: 1.42857;
   border-radius: 0;
@@ -2310,7 +2310,7 @@ input[type="button"].btn-block {
   vertical-align: middle; }
 
 .input-group-addon {
-  padding: 10px 10px;
+  padding: 6px 12px;
   font-size: 16px;
   font-weight: normal;
   line-height: 1;
@@ -2568,7 +2568,6 @@ img {
   max-width: 100%; }
 
 .form-control:focus {
-  border-color: #cb6222;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(203, 98, 34, 0); }
 
 .teaser {
@@ -2603,5 +2602,8 @@ img {
 @media (max-width: 767px) {
   .teaser {
     background-image: none; } }
+/*Trouver plus propre*/
+input[type="text"], button {
+  height: 52px; }
 
 /*# sourceMappingURL=app.css.map */
