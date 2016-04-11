@@ -264,7 +264,7 @@ body {
   font-size: 16px;
   line-height: 1.42857;
   color: #333333;
-  background-color: #fff; }
+  background-color: #f8ecde; }
 
 input,
 button,
@@ -275,7 +275,7 @@ textarea {
   line-height: inherit; }
 
 a {
-  color: #337ab7;
+  color: #230d07;
   text-decoration: none; }
   a:hover, a:focus {
     color: #23527c;
@@ -1361,7 +1361,7 @@ th {
   .table > tbody + tbody {
     border-top: 2px solid #ddd; }
   .table .table {
-    background-color: #fff; }
+    background-color: #f8ecde; }
 
 .table-condensed > thead > tr > th,
 .table-condensed > thead > tr > td,
@@ -2229,7 +2229,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
     background-color: #fff; }
 
 .btn-link {
-  color: #337ab7;
+  color: #230d07;
   font-weight: normal;
   border-radius: 0; }
   .btn-link, .btn-link:active, .btn-link.active, .btn-link[disabled], fieldset[disabled] .btn-link {
@@ -2561,25 +2561,23 @@ STYLES.CSS
 html,
 body {
   height: 100%;
-  width: 100%;
-  background-color: #f3e8d6; }
+  width: 100%; }
 
 img {
   max-width: 100%; }
 
 .form-control:focus {
   border-color: #cb6222;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(203, 98, 34, 0.6); }
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(203, 98, 34, 0); }
 
 .teaser {
-  background: url("../../img/background.jpg") center center no-repeat;
+  background-image: url("../../img/background.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
+  background-position: center 100px;
   color: #230d07; }
   .teaser .container {
     padding-top: 2rem; }
-    .teaser .container a {
-      color: #230d07; }
     .teaser .container h2 {
       font-size: 3.4em; }
     .teaser .container h3 {
@@ -2594,26 +2592,16 @@ img {
       max-width: 450px;
       margin: 2em auto; }
 
-@media (min-width: 1280px) {
-  .teaser {
-    background-position: center center;
-    background-size: cover; } }
 @media (min-width: 1200px) {
-  .teaser p {
-    padding: 0 3rem; } }
-@media (max-width: 1199px) {
-  .teaser h2 {
-    font-size: 3rem; } }
+  .teaser {
+    background-position: center center; }
+    .teaser p {
+      padding: 0 3rem; } }
 @media (max-width: 991px) {
   .teaser h2 {
     font-size: 3.1em; } }
 @media (max-width: 767px) {
   .teaser {
-    background-image: none; }
-
-  .teaser {
-    /*background-image:none;*/ }
-    .teaser h3, .teaser h2 {
-      font-family: 'Fjalla One', sans-serif; } }
+    background-image: none; } }
 
 /*# sourceMappingURL=app.css.map */
