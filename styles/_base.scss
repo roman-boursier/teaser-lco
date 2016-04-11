@@ -1,0 +1,119 @@
+/*
+STYLES.CSS
+*/
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color:#f3e8d6;
+}
+
+img {
+    max-width: 100%;
+}
+
+.form-control:focus {
+  border-color:  $brand-primary;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(203, 98, 34, 0.6);
+}
+
+//== Teaser
+//
+.teaser {
+
+    background: url('../../img/background.jpg') center center no-repeat;
+    background-size:cover;
+    text-align: center;
+    color : #230d07;
+
+    .container {
+        padding-top: 2rem ;
+
+        a {
+            color : #230d07;
+        }
+
+        h2 {
+            font-size:3.4em;
+        }
+
+        h3 {
+            font-size:1.8em; 
+            margin-top: 1em;
+        }
+
+        h3, h2 {
+            font-family: 'Fjalla One', sans-serif;
+        }
+
+        a {
+            font-size:1.5em;
+            text-decoration: underline;
+        }
+
+        form {
+            max-width:450px;
+            margin: 2em auto; 
+        }
+
+    }
+
+}
+
+
+//== Responsive
+//
+
+@media (min-width: 1280px) { 
+    .teaser {
+       
+        background-position: center center;
+        background-size: cover; 
+    }
+}
+
+
+@media (min-width: $screen-lg-min){
+    .teaser {
+        p {
+            padding: 0 3rem ;
+        }
+    }
+}
+
+
+@media (max-width: $screen-md-max){
+    .teaser{      
+        h2 {
+            font-size:3rem;
+        }
+    }
+
+}
+
+@media (max-width: $screen-sm-max){
+    .teaser {
+        h2 {
+            font-size:3.1em;
+        }
+    }
+}
+
+@media (max-width: $screen-xs-max) {  
+    body, html {
+
+    }
+    
+    .teaser{
+       
+        background-image:none;
+        
+    }
+    .teaser{
+        /*background-image:none;*/
+        h3, h2 {
+            font-family: 'Fjalla One', sans-serif;
+        }
+    }
+
+} 
