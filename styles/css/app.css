@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -2573,8 +2574,8 @@ img {
 .teaser {
   background-image: url("../../img/background.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center 100px;
+  background-size: 100%;
+  background-position: center bottom;
   color: #230d07; }
   .teaser .container {
     padding-top: 2rem; }
@@ -2593,10 +2594,9 @@ img {
       margin: 2em auto; }
 
 @media (min-width: 1200px) {
-  .teaser {
-    background-position: center center; }
-    .teaser p {
-      padding: 0 3rem; } }
+  /*Grande r├®solutions*/
+  .teaser p {
+    padding: 0 3rem; } }
 @media (max-width: 991px) {
   .teaser h2 {
     font-size: 3.1em; } }

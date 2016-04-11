@@ -21,8 +21,8 @@ img {
 .teaser {
     background-image: url('../../img/background.jpg') ;
     background-repeat: no-repeat;
-    background-size:cover;
-    background-position :center 100px ;
+    background-size:100%;
+    background-position :center bottom ;
     color : #230d07;
     .container {
         padding-top: 2rem;
@@ -56,9 +56,8 @@ img {
 //== Responsive
 //
 
-@media (min-width: $screen-lg-min){
+@media (min-width: $screen-lg-min){ /*Grande résolutions*/
     .teaser {
-         background-position :center center;
         p {
             padding: 0 3rem ;
         }
