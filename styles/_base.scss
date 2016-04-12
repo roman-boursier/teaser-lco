@@ -21,8 +21,8 @@ img {
 .teaser {
     background-image: url('../../img/background.jpg') ;
     background-repeat: no-repeat;
-    background-size:100%;
-    background-position :center bottom ;
+    
+    background-position :center  430px  ;
     color : #230d07;
     .container {
         padding-top: 2rem;
@@ -34,6 +34,7 @@ img {
         h3 {
             font-size:1.8em; 
             margin-top: 1em;
+            text-shadow: 0px 0px 4px #f8ecde;
         }
         
         h3, h2 {
@@ -58,6 +59,7 @@ img {
 
 @media (min-width: $screen-lg-min){ /*Grande résolutions*/
     .teaser {
+        background-size:100%;
         p {
             padding: 0 3rem ;
         }
@@ -74,6 +76,9 @@ img {
 @media (max-width: $screen-xs-max) {  
     .teaser {
         background-image:none;
+        .visible-xs {
+            margin-top: -10%;
+        }
     }
 } 
 
